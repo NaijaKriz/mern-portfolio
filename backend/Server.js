@@ -3,7 +3,7 @@
 const express = require('express')
 const app = express()
 require("dotenv").config();
-const dbConfig = require("./config/dbConfig")
+const dbConfig = require("./config/dbConfig.js")
 const portfolioRoute = require("./routes/portfolioRoute.jsx")
 app.use(express.json())
 app.use("/api/portfolio", portfolioRoute)
