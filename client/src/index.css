@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: #0A192F;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #013f3c7f;
+    border-radius: 10px;
+}
+i{
+    cursor: pointer;
+}
+i:hover{
+    color: white;
+}
+
+
+.i{
+    animation: i 1s infinite;
+}
+
+@keyframes i{
+    0%{
+       opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 0.5;
+    }
+}
+
+.c{
+    animation: c 1s infinite;
+}
+
+@keyframes c{
+    0%{
+       opacity: 0.5;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.5;
+    }
+}
+
+
+.I{
+    animation: I 1s infinite;
+}
+
+@keyframes I{
+    0%{
+       opacity: 0.5;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+input, textarea{
+    height: 40px;
+    border: 1px solid gray;
+    width: 100%;
+    padding-left: 20px;
+}
+input:focus{
+    outline: none;
+    border: 2px solid rgb(56, 56, 56);
+}
+textarea{
+    height: 100px;
+    padding-top: 10px;
+}
+
