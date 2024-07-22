@@ -8,8 +8,7 @@
     "npm": "10.2.3"
   },
   "scripts": {
-    
-    "server": "nodemon server.js",
+    "server": "nodemon Server.js",
     "build": "npm i"
     
   },
